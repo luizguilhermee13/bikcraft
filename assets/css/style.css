@@ -9,7 +9,7 @@
 
 /* Home */
 @import "/assets/css/home/introducao.css";
-
+@import "/assets/css/bicicletas/bicicletas-lista.css";
 * {
   margin: 0;
   padding: 0;
