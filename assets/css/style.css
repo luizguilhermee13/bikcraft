@@ -3,6 +3,7 @@
 @import "/assets/css/utilidades/cores.css";
 
 @import "/assets/css/global/header.css";
+@import "/assets/css/global/footer.css";
 
 /* Utilidades */
 @import "/assets/css/utilidades/componentes.css";
@@ -11,7 +12,13 @@
 @import "/assets/css/home/introducao.css";
 @import "/assets/css/home/tecnologia.css";
 @import "/assets/css/home/parceiros.css";
+@import "/assets/css/home/depoimentos.css";
+
+/* bicicletas */
 @import "/assets/css/bicicletas/bicicletas-lista.css";
+
+/* Seguros */
+@import "/assets/css/seguros/seguros.css";
 
 * {
   margin: 0;
