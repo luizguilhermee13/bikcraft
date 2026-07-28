@@ -14,6 +14,9 @@
 @import "/assets/css/home/parceiros.css";
 @import "/assets/css/home/depoimentos.css";
 
+/* termos */
+@import "/assets/css/termos/termos.css";
+
 /* bicicletas */
 @import "/assets/css/bicicletas/bicicletas-lista.css";
 
