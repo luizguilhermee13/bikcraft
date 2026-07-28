@@ -51,3 +51,10 @@
     width: 100%;
   }
 }
+
+@media (max-width: 600px) {
+  .introducao-bg {
+    box-shadow: none;
+    padding-bottom: 2.5rem;
+  }
+}
