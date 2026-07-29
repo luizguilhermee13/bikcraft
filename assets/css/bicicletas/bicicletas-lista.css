@@ -11,6 +11,10 @@
   margin: 0 auto;
 }
 
+#listabike .bicicletas-lista ul {
+  padding-bottom: 20px;
+}
+
 .bicicletas-lista li {
   flex: 1;
   min-width: 280px;
