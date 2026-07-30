@@ -11,6 +11,11 @@
   align-items: center;
 }
 
+#telaSeguros .seguros {
+  padding-top: 0;
+  background-color: var(--cor-11);
+}
+
 .seguros h2,
 .seguros-item > ul,
 .seguros-item a {

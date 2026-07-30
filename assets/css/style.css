@@ -22,8 +22,11 @@
 @import "/assets/css/bicicletas/bicicletas.css";
 @import "/assets/css/bicicletas/individuais.css";
 @import "/assets/css/bicicletas/seguro.css";
+
 /* Seguros */
 @import "/assets/css/seguros/seguros.css";
+@import "/assets/css/seguros/vantagens.css";
+@import "/assets/css/seguros/perguntas.css";
 
 * {
   margin: 0;
