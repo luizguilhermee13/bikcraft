@@ -1,0 +1,29 @@
+.contato-formulario form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.contato-formulario form label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font:
+    600 1rem / 1.5 "Poppins",
+    sans-serif;
+}
+
+.contato-formulario form input,
+form textarea {
+  padding: 0.75rem;
+  box-sizing: border-box;
+  font:
+    400 1rem / 1.5 "Roboto",
+    sans-serif;
+  background: var(--cor-2);
+  border: 1px solid var(--cor-2);
+  width: 100%;
+}
+
+.contato-formulario .col-2 {
+  grid-column: 1 /-1;
+}
