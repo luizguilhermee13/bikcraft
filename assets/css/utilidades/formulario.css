@@ -1,10 +1,10 @@
-.contato-formulario form {
+form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
 }
 
-.contato-formulario form label {
+form label {
   display: block;
   margin-bottom: 0.25rem;
   font:
@@ -12,7 +12,7 @@
     sans-serif;
 }
 
-.contato-formulario form input,
+form input,
 form textarea {
   padding: 0.75rem;
   box-sizing: border-box;
@@ -24,6 +24,6 @@ form textarea {
   width: 100%;
 }
 
-.contato-formulario .col-2 {
+.col-2 {
   grid-column: 1 /-1;
 }

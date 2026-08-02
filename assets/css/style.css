@@ -33,6 +33,9 @@
 @import "/assets/css/contato/contato.css";
 @import "/assets/css/contato/lojas.css";
 
+/* contato */
+@import "/assets/css/orcamentos/orcamentos.css";
+
 * {
   margin: 0;
   padding: 0;
