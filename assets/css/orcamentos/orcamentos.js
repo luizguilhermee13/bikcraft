@@ -12,7 +12,6 @@ function mostrarNimbus() {
   document.getElementById("nimbus1").style.display = "grid";
   document.getElementById("magic1").style.display = "none";
   document.getElementById("nebula1").style.display = "none";
-  d;
 }
 
 function mostrarMagic() {

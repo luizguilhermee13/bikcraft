@@ -5,6 +5,7 @@
 .orcamentos {
   display: grid;
   grid-template-columns: 5fr 7fr;
+  gap: 0;
 }
 
 .orcamentos h2 {
@@ -140,4 +141,8 @@
   .orcamento-produto {
     grid-template-columns: 1fr;
   }
+}
+
+.selecionado {
+  background-color: #ffffff;
 }
