@@ -27,13 +27,13 @@
   text-align: left;
 }
 
-.perguntas dd {
+.js .perguntas dd {
   padding: 1.25rem 0 0 1rem;
   max-width: 80ch;
   display: none;
 }
 
-.perguntas dd.ativa {
+.js .perguntas dd.ativa {
   display: block;
 }
 
