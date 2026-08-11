@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Bikcraft - Bicicletas Eletricas</title>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body>
     <header class="header-bg">
@@ -32,14 +35,21 @@
     <main class="introducao-bg">
       <div class="introducao-container container">
         <div class="introducao-conteudo">
-          <h1 class="titulo-h1 cor-0">Bicicletas feitas sob medida.</h1>
-          <p class="texto-p cor-5">
+          <h1 class="titulo-h1 cor-0 fadeInDown" data-anime="200">
+            Bicicletas feitas sob medida.
+          </h1>
+          <p class="texto-p cor-5 fadeInDown" data-anime="400">
             Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
             para você. Explore o mundo na sua velocidade com a Bikcraft.
           </p>
-          <a class="botao" href="/pages/bicicletas.html">Escolha a sua</a>
+          <a
+            class="botao fadeInDown"
+            data-anime="600"
+            href="/pages/bicicletas.html"
+            >Escolha a sua</a
+          >
         </div>
-        <div class="introducao-image">
+        <div class="introducao-image fadeInDown" data-anime="800">
           <img
             src="/assets/img/fotos/introducao.jpg"
             alt="Bicicleta Eletrica"
@@ -86,7 +96,7 @@
 
     <article class="tecnologia-bg">
       <div class="tecnologia container">
-        <div class="tecnologia-conteudo">
+        <div class="tecnologia-conteudo fadeInLeft" data-anime="200">
           <span class="texto-p-b cor-5">Tecnologia Avançada</span>
           <h2 class="titulo-h1 cor-0">
             você escolhe as suas cores e componentes.
@@ -125,7 +135,7 @@
             </div>
           </div>
         </div>
-        <div class="tecnologia-imagem">
+        <div class="tecnologia-imagem fadeInRight" data-anime="400">
           <img src="/assets/img/fotos/tecnologia.jpg" alt="" />
         </div>
       </div>
@@ -135,28 +145,68 @@
       <h2 class="container titulo-h1">nossos parceiros</h2>
       <ul>
         <li>
-          <img src="/assets/img/parceiros/caravan.svg" alt="caravan" />
+          <img
+            src="/assets/img/parceiros/caravan.svg"
+            alt="caravan"
+            data-anime="200"
+            class="fadeInLeft"
+          />
         </li>
         <li>
-          <img src="/assets/img/parceiros/ranek.svg" alt="ranek" />
+          <img
+            src="/assets/img/parceiros/ranek.svg"
+            alt="ranek"
+            data-anime="400"
+            class="fadeInLeft"
+          />
         </li>
         <li>
-          <img src="/assets/img/parceiros/handel.svg" alt="handel" />
+          <img
+            src="/assets/img/parceiros/handel.svg"
+            alt="handel"
+            data-anime="600"
+            class="fadeInLeft"
+          />
         </li>
         <li>
-          <img src="/assets/img/parceiros/dogs.svg" alt="dogs" />
+          <img
+            src="/assets/img/parceiros/dogs.svg"
+            alt="dogs"
+            data-anime="800"
+            class="fadeInLeft"
+          />
         </li>
         <li>
-          <img src="/assets/img/parceiros/lescone.svg" alt="lescone" />
+          <img
+            src="/assets/img/parceiros/lescone.svg"
+            alt="lescone"
+            data-anime="1000"
+            class="fadeInLeft"
+          />
         </li>
         <li>
-          <img src="/assets/img/parceiros/flexblog.svg" alt="flexblog" />
+          <img
+            src="/assets/img/parceiros/flexblog.svg"
+            alt="flexblog"
+            data-anime="1200"
+            class="fadeInLeft"
+          />
         </li>
         <li>
-          <img src="/assets/img/parceiros/wildbeast.svg" alt="wildbeast" />
+          <img
+            src="/assets/img/parceiros/wildbeast.svg"
+            alt="wildbeast"
+            data-anime="1400"
+            class="fadeInLeft"
+          />
         </li>
         <li>
-          <img src="/assets/img/parceiros/surfbot.svg" alt="surfbot" />
+          <img
+            src="/assets/img/parceiros/surfbot.svg"
+            alt="surfbot"
+            data-anime="1600"
+            class="fadeInLeft"
+          />
         </li>
       </ul>
     </section>
@@ -164,21 +214,23 @@
     <section class="depoimento" aria-label="depoimento">
       <img src="/assets/img/fotos/depoimento.jpg" alt="foto depoimento" />
       <div class="depoimento-conteudo">
-        <blockquote class="titulo-h3 cor-p5">
+        <blockquote class="titulo-h3 cor-p5 fadeInRight" data-anime="200">
           <p>
             Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez
             foi intensificar o meu amor por esta atividade. Recomendo à todos
             que amo.
           </p>
         </blockquote>
-        <span class="texto-menu-b cor-p4">Ana Júlia</span>
+        <span class="texto-menu-b cor-p4 fadeInRight" data-anime="400"
+          >Ana Júlia</span
+        >
       </div>
     </section>
 
     <article class="seguros-bg">
       <div class="seguros container">
         <h2 class="titulo-h1 cor-0">Seguros</h2>
-        <div class="seguros-item">
+        <div class="seguros-item fadeInLeft" data-anime="200">
           <h3 class="titulo-h3 cor-6">Prata</h3>
           <span class="titulo-h3 cor-0"
             >R$ 199 <span class="font-1-xs cor-6">mensal</span></span
@@ -195,7 +247,7 @@
             >Inscreva-se</a
           >
         </div>
-        <div class="seguros-item">
+        <div class="seguros-item fadeInRight" data-anime="400">
           <h3 class="titulo-h3 cor-p1">Ouro</h3>
           <span class="titulo-h3 cor-0"
             >R$ 299 <span class="font-1-xs cor-6">mensal</span></span
@@ -254,7 +306,7 @@
         </p>
       </div>
     </footer>
-
+    <script src="/assets/js/plugin/simple-anime.js"></script>
     <script src="/assets/js/script.js"></script>
   </body>
 </html>
