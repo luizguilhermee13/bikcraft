@@ -58,7 +58,7 @@
   content: "";
   display: inline-block;
   position: absolute;
-  background-image: url("/assets/img/icones/lista.svg");
+  background-image: url("../../img/icones/lista.svg");
   width: 13px;
   height: 9px;
   left: -21px;

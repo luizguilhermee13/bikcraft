@@ -1,41 +1,41 @@
-@import "/assets/css/global/global.css";
-@import "/assets/css/utilidades/tipografia.css";
-@import "/assets/css/utilidades/cores.css";
-@import "/assets/css/utilidades/animacao.css";
+@import "../css/global/global.css";
+@import "../css/utilidades/tipografia.css";
+@import "../css/utilidades/cores.css";
+@import "../css/utilidades/animacao.css";
 
-@import "/assets/css/global/header.css";
-@import "/assets/css/global/footer.css";
+@import "../css/global/header.css";
+@import "../css/global/footer.css";
 
 /* Utilidades */
-@import "/assets/css/utilidades/componentes.css";
-@import "/assets/css/utilidades/formulario.css";
+@import "../css/utilidades/componentes.css";
+@import "../css/utilidades/formulario.css";
 
 /* Home */
-@import "/assets/css/home/introducao.css";
-@import "/assets/css/home/tecnologia.css";
-@import "/assets/css/home/parceiros.css";
-@import "/assets/css/home/depoimentos.css";
+@import "../css/home/introducao.css";
+@import "../css/home/tecnologia.css";
+@import "../css/home/parceiros.css";
+@import "../css/home/depoimentos.css";
 
 /* termos */
-@import "/assets/css/termos/termos.css";
+@import "../css/termos/termos.css";
 
 /* bicicletas */
-@import "/assets/css/bicicletas/bicicletas-lista.css";
-@import "/assets/css/bicicletas/bicicletas.css";
-@import "/assets/css/bicicletas/individuais.css";
-@import "/assets/css/bicicletas/seguro.css";
+@import "../css/bicicletas/bicicletas-lista.css";
+@import "../css/bicicletas/bicicletas.css";
+@import "../css/bicicletas/individuais.css";
+@import "../css/bicicletas/seguro.css";
 
 /* Seguros */
-@import "/assets/css/seguros/seguros.css";
-@import "/assets/css/seguros/vantagens.css";
-@import "/assets/css/seguros/perguntas.css";
+@import "../css/seguros/seguros.css";
+@import "../css/seguros/vantagens.css";
+@import "../css/seguros/perguntas.css";
 
 /* contato */
-@import "/assets/css/contato/contato.css";
-@import "/assets/css/contato/lojas.css";
+@import "../css/contato/contato.css";
+@import "../css/contato/lojas.css";
 
 /* contato */
-@import "/assets/css/orcamentos/orcamentos.css";
+@import "../css/orcamentos/orcamentos.css";
 
 * {
   margin: 0;

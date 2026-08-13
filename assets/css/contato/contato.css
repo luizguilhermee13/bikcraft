@@ -41,11 +41,11 @@
 }
 
 .contato-dados .contato-endereco {
-  background: url(/assets/img/icones/local.svg) no-repeat 0px 2px;
+  background: url(../../img/icones/local.svg) no-repeat 0px 2px;
 }
 
 .contato-dados address {
-  background: url(/assets/img/icones/email.svg) no-repeat 0px 2px;
+  background: url(../../img/icones/email.svg) no-repeat 0px 2px;
 }
 
 .contato-dados address a:nth-child(2) {
@@ -53,7 +53,7 @@
 }
 
 .contato-dados address a:nth-child(3) {
-  background: url(/assets/img/icones/telefone.svg) no-repeat 0px 2px;
+  background: url(../../img/icones/telefone.svg) no-repeat 0px 2px;
   margin-bottom: 3.75rem;
 }
 
